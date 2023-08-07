@@ -60,7 +60,7 @@ body {
    position: absolute;
    top: 20%;
    left: 10%;
-   transform: translate(-50%);
+   transform: translate(-10%, -20%);
    padding: 10%;
    width: auto;
    margin: 40px;
@@ -68,10 +68,10 @@ body {
 
   }
 
-  h1 {
+  h1.Intro {
   color: #294973;
   display: block;
-  text-align: left;
+  text-align: right;
   margin: 0;
   padding: 0;
 
