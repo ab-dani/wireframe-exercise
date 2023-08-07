@@ -58,21 +58,28 @@ body {
    .wickSectionIntro {
     background-color: #5A708C;
    position: absolute;
-   top: 20%;
    left: 10%;
    transform: translate(-10%, -20%);
    padding: 10%;
    width: auto;
    margin: 40px;
+   
 
 
   }
 
-  h1.Intro {
+  
+
+div.Intro h1 {
+  top: 50%;
+  font-weight: bold;
   color: #294973;
-  display: block;
+  font-size: 28px;
   text-align: right;
   margin: 0;
   padding: 0;
+  
+ 
+  
+}
 
-  }
