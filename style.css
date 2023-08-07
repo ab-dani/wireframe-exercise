@@ -67,3 +67,12 @@ body {
 
 
   }
+
+  h1 {
+  color: #294973;
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+
+  }
