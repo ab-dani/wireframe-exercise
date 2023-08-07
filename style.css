@@ -1,1 +1,64 @@
 
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  header nav  {
+    
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px;
+    margin: 10px;
+  }
+
+  
+ 
+  .wcuLogo {
+    text-decoration: none;
+    color: #294973;
+    font-weight: bold;
+  }
+  
+  
+  .wickNavBar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+  }
+  
+ 
+  .wickNavBar li {
+    margin-right: 10px;
+  }
+  
+ 
+  .wickNavBar li:last-child {
+    margin-right: 0;
+  }
+  
+  
+  .wickNavBar li a {
+    text-decoration: none;
+    color: #294973;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  
+  .wickNavBar li a:hover {
+    background-color: #294973;
+    color: #f0f0f0;
+  }
+  
+
+   .wickSectionIntro {
+    background-color: #5A708C;
+    width: auto;
+    align-self:left;
+
+
+  }
