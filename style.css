@@ -57,8 +57,13 @@ body {
 
    .wickSectionIntro {
     background-color: #5A708C;
-    width: auto;
-    align-self:left;
+   position: absolute;
+   top: 50%;
+   left: 10%;
+   transform: translate(-50%);
+   padding: 10%;
+   width: auto;
+   margin: 40px;
 
 
   }
