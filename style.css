@@ -85,3 +85,10 @@ div.Intro {
   left: 10%; 
   transform: translate(120%, -50%);
 }
+
+
+.wickSection1 {
+
+  display: inline-block;
+  color: #5A708C;
+}
