@@ -22,6 +22,8 @@ body {
     text-decoration: none;
     color: #294973;
     font-weight: bold;
+    width: 200px;
+    height: 70px;
   }
   
   
@@ -65,8 +67,6 @@ body {
 .wickSectionIntro {
   background-color: #5A708C;
   width: auto;
-  width: 700px;
-  height: 700px;
   
   
 }
@@ -87,11 +87,7 @@ div.Intro {
 }
 
 
-.wickSection1 {
 
-  display: inline-block;
-  color: #5A708C;
-}
 
 
 .wickwrapper {
@@ -100,3 +96,46 @@ div.Intro {
   justify-content: space-between;
   
 }
+
+
+
+.wickSection1 {
+  display: flex;
+  justify-content: center;
+  width: 960px;
+  height: 450px;
+
+}
+
+
+.wickSection2 {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 375px;
+
+  
+} 
+
+.wickSection3 {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 375px;
+
+}
+.wickSection4 {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 375px;
+}
+
+
+.wickSection5 {
+  display: flex;
+  justify-content: center;
+  width: 480px;
+  height: 400px;
+}
+
