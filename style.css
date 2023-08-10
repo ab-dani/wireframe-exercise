@@ -160,8 +160,10 @@ flex-direction: row;
 }
 
 
-.lowerWickSection {
+.lowerWickSection img {
   display: flex;
   align-self: center;
   justify-content: center;
+  margin: 30px;
 }
+
