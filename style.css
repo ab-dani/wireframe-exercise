@@ -105,7 +105,7 @@ div.Intro {
 
 #wickSection2 img{
   display: flex;
-  align-self: auto;
+  align-self: flex-start;
   
 } 
 
