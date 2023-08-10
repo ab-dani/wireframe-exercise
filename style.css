@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-  
+
   
   header nav  {
     
@@ -98,21 +98,28 @@ div.Intro {
 }
 
 
-section {
+#wickSection1 img{
   display: flex;
-  justify-content: center;
+  
+}
+
+#wickSection2 img{
+  display: flex;
+  align-self: auto;
+  
+} 
+
+#wickSection3 img{
+  display: flex;
+  
+}
+
+#wickSection4 img{
+  display: flex;
   
 }
 
 
-section#wickSection2 {
+#wickSection5 img{
   display: flex;
-  justify-content: center;
-  
-} 
-
-section#wickSection3 {
-  display: flex;
-  align-self: flex-start;
-  justify-content: flex-end;
 }
