@@ -1,19 +1,27 @@
 body {
-  margin: 0;
+  margin: auto;
   padding: 0;
   display: flex;
   flex-direction: column;
+  width: 960px;
+  align-items: center;
+  gap: 40px;
 }
  
+
+header {
+  width: 100%;
+}
  
  
  header nav  {
     
     display: flex; 
-    justify-content: space-between; 
-    padding: 10px;
+    justify-content: space-between;
     padding-bottom: 40px;
     margin: 10px;
+    margin-top: 40px ;
+    width: 100%;
   }
 
   
@@ -33,6 +41,7 @@ body {
     padding: 0;
     padding-right: 20px;
     display: flex; 
+    
   }
   
  
@@ -82,7 +91,7 @@ div.Intro h1 {
 
 div.Intro {
   align-self: center;
-  padding-right: 40px;
+  
  
 }
 
@@ -94,6 +103,7 @@ div.Intro {
 
   display: flex;
   justify-content: space-between;
+  width: 100%;
   
 }
 
@@ -132,7 +142,7 @@ div.Intro {
 
 #wickSection5 {
   display: flex;
-  justify-content: center;
+  gap: 20px;
 
 }
 
@@ -142,7 +152,7 @@ div.Intro {
 
 section {
 display: flex;
-flex-direction: row;
+
 }
 
 
@@ -167,3 +177,17 @@ flex-direction: row;
   margin: 30px;
 }
 
+.wickText {
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+footer {
+  background-color: #000;
+  display: flex;
+  width: 100%;
+  height: 60px;
+
+}
