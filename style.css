@@ -98,28 +98,44 @@ div.Intro {
 }
 
 
-#wickSection1 img{
+#wickSection1 {
   display: flex;
-  
+  align-self: center;
+ 
 }
 
-#wickSection2 img{
+#wickSection2 {
   display: flex;
-  align-self: flex-start;
+  align-self: center;
+ 
   
 } 
 
-#wickSection3 img{
+#wickSection3 {
   display: flex;
+  align-self: center;
+}
+
+#wickSection4 {
+  display: flex;
+  align-self: center;
   
 }
 
-#wickSection4 img{
+
+#wickSection5 {
   display: flex;
-  
+  align-self: center;
 }
 
 
-#wickSection5 img{
+
+img{
   display: flex;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
 }
