@@ -68,6 +68,8 @@ h6 {
   display: flex;
   justify-content: center;
   color: #f0f0f0;
+  font-size: 30px;
+  margin: 25px;
 }
 
 .Intro {
@@ -84,7 +86,7 @@ h6 {
 
 div.Intro h1 {
   font-weight: bold;
-  color: #294973;
+  color: #fafcfd;
   font-size: 80px;
   margin: 0;
   padding: 0;
