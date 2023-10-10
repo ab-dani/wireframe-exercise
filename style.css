@@ -60,7 +60,6 @@ header nav {
 
 .wickSectionIntro {
   display: flex;
-  width: auto;
   align-content: center;
 }
 
@@ -69,9 +68,17 @@ h6 {
   justify-content: center;
   color: #f0f0f0;
 }
+
+.Intro {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
 #expWick {
-  justify-self: center;
-  padding: 10px;
+  align-self: center;
+  width: 200px;
+  padding: 15px;
 }
 
 div.Intro h1 {
@@ -88,25 +95,28 @@ div.Intro h1 {
   width: 100%;
 }
 
+#wickSection1 {
+  color: #000;
+  display: flex;
+  align-self: center;
+  padding: 130px;
+}
+
 #wickSection2 {
   color: #000;
   display: flex;
   align-self: center;
+  padding: 130px;
 }
 
 #wickSection3 {
   color: #000;
   display: flex;
   align-self: center;
+  padding: 130px;
 }
 
 #wickSection4 {
-  color: #000;
-  display: flex;
-  align-self: center;
-}
-
-#wickSection5 {
   color: #000;
   display: flex;
 }
@@ -116,6 +126,8 @@ div.Intro h1 {
   align-self: center;
   justify-content: center;
   justify-content: space-between;
+  margin: 50px;
+  padding: 30px;
 }
 
 .run-on-section section {
@@ -139,6 +151,7 @@ div.Intro h1 {
 footer {
   background-color: #000;
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: 60px;
 }
