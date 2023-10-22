@@ -12,6 +12,7 @@
 body {
   background-image: url("pexels-ricky-esquivel-2627063.jpg");
   background-size: cover;
+  background-repeat: none;
   margin: 0; 
   padding: 0;
   display: flex;
@@ -22,6 +23,11 @@ body {
 
 header {
   width: 100%;
+}
+#mastImg {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
 }
 
 header nav {
@@ -103,8 +109,13 @@ h6 {
   justify-content: center;
 }
 button#expWick {
+  background-color: #f0f0f0;
+  font-family: 'Expo-Sans', sans-serif;
+  font-style: bold;
+  font-size: 15px;
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  align-self: flex-end;
   width: 200px;
   padding: 15px;
 }
@@ -122,29 +133,38 @@ div.Intro h2 {
 .wickwrapper {
   display: flex;
   justify-content: end;
-  padding-right: 150px;
+  
   width: 100%;
 }
 
 #wickSection1 {
+  font-family: 'Expo-Sans', sans-serif;
+  background-color: #f0f0f0;
   color: #000;
   display: flex;
   align-self: center;
-  padding: 130px;
+  padding: 50px;
+  
 }
 
 #wickSection2 {
+  font-family: 'Expo-Sans', sans-serif;
+  background-color: #f0f0f0;
   color: #000;
   display: flex;
   align-self: center;
-  padding: 130px;
+  padding: 50px;
+  
 }
 
 #wickSection3 {
+  font-family: 'Expo-Sans', sans-serif;
+  background-color: #f0f0f0;
   color: #000;
   display: flex;
   align-self: center;
-  padding: 130px;
+  padding: 50px;
+  
 }
 
 #wickSection4 {
@@ -180,7 +200,10 @@ div.Intro h2 {
 }
 
 #wickFoot {
-  
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  padding-top: 5px;
   background-color: #000;
   color: #f0f0f0;
   width: 100%;
